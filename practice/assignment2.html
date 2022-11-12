@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: tomato;
+      }
+      .flex-ex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        background-color: wheat;
+        border: solid;
+      }
+      .flex-ex_color {
+        background-color: teal;
+        margin: 10px;
+      }
+      .flex-ex_size {
+        width: 65px;
+        height: 65px;
+      }
+      .flex-ex_size2 {
+        width: 250px;
+        height: 66px;
+      }
+      .flex-ex_border{
+        border: solid white 3px;
+      }
+      .flex-ex_border2{
+        border: dashed white 3.7px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-ex">
+      <div class="flex-ex_color flex-ex_size flex-ex_border"></div>
+      <div class="flex-ex_color flex-ex_size2 flex-ex_border2"></div>
+      <div class="flex-ex_color flex-ex_size flex-ex_border"></div>
+    </div>
+  </body>
+</html>
