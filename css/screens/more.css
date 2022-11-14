@@ -1,0 +1,38 @@
+.more-screen .icon-raw {
+  margin-top: 35px;
+}
+
+.icon-raw {
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon-raw__icon span {
+  font-size: 10.5px;
+}
+
+.icon-raw__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: color 0.3s ease-in-out;
+  color: var(--gray);
+}
+
+.icon-raw__icon:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.more-suggestions {
+  margin-top: 30px;
+  padding-top: 40px;
+  border-top: var(--main-border);
+}
+.more-suggestions__title {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
