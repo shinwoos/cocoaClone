@@ -6,6 +6,9 @@
   padding: 0px 3px;
   margin-top: -5px;
 }
+.status-bar2 {
+  top: 10px;
+}
 .status-bar__column {
   width: 33%;
 }
@@ -23,4 +26,21 @@
 }
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
+}
+
+@keyframes upper {
+  0% {
+    opacity: 0;
+    bottom: -50px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+.nav__link {
+  animation: upper 1s ease-in-out forwards;
+}
+.nav__list :first-child {
+  animation-delay: 2s;
 }
