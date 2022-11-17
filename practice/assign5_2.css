@@ -1,0 +1,32 @@
+.popular_img {
+  display: flex;
+  margin-left: 32px;
+}
+.popular_img img {
+  display: flex;
+  position: relative;
+  width: 120px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.popular_name {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 200px;
+  bottom: 155px;
+}
+.popular_name span {
+  font-size: 25px;
+  font-weight: 500;
+}
+.popular_info {
+  position: relative;
+  width: 35%;
+  display: flex;
+  left: 200px;
+  bottom: 140px;
+  font-size: 14px;
+  opacity: 0.5;
+}
