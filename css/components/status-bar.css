@@ -6,6 +6,23 @@
   padding: 0px 3px;
   margin-top: -5px;
 }
+.status-bar-setting {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0px 3px;
+  margin-top: -10px;
+}
+.status-bar-chat {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0px 3px;
+  margin-top: 2px;
+}
 .status-bar2 {
   top: 10px;
 }
